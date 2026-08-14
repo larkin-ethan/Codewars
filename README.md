@@ -1,1 +1,3 @@
-A collection of solutions to various Codewars problems! - Created using [CodeHub](https://github.com/FebinBellamy/CodeHub)
+All of the solutions from Codewars problems I have done
+
+View my account here: https://www.codewars.com/users/larkin-ethan
