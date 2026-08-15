@@ -6,19 +6,19 @@
 ​
 SELECT * FROM students WHERE 
       (
-        quality1 = 'hufflepuff' or
-        quality1 = 'studious' or 
-        quality2 = 'hufflepuff' or
+        quality1 = 'hufflepuff' OR
+        quality1 = 'studious' OR
+        quality2 = 'hufflepuff' OR
         quality2 = 'intelligent'
       ) 
-      or
+      OR
       (
-        quality1 = 'evil' and
+        quality1 = 'evil' AND
         quality2 = 'cunning'
       )
-      or
+      OR
       (
-        quality1 = 'brave' and
+        quality1 = 'brave' AND
         quality2 != 'evil'
       )
-      ORDER BY id asc;
+      ORDER BY id ASC;
