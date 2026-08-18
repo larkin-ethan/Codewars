@@ -1,4 +1,12 @@
 def digital_root(n):
+    """
+    What I learned:
+
+    Instead of writing my own function, I could've just recalled digital_root. Effectively would've
+    done the same thing in fewer lines. It would've prevented the need for the while loop and sum check though. 
+    """
+
+    
     # Check if it is one digit to start with
     # Then iterate through n getting each digit and adding it together
     # Then check if that number is greater than 10 and if it is run it again
