@@ -1,4 +1,14 @@
 def create_phone_number(n):
+    """
+    What I learned:
+
+    You can set up a format string using {} values and then add .format(*n). That will add all of the values.
+    It would look like this "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
+
+    I could've also just used the same format idea but put the indexs in directly since we know it is always 10 values
+    It would look like this f"({n[0]}{n[1]}{n[2]}) -{n[3]}......"
+    """
+    
     # Setup the output string with a opening parentheses
     # Then iterate through the list and check at the 3rd char and
     # add a closing parentheses and space
