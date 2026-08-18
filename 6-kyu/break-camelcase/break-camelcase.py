@@ -1,4 +1,10 @@
 def solution(s):
+    """
+    What I learned:
+
+    I could've used the isupper() method to check if the char is uppercase or not
+    """
+    
     # Iterate through the string and check if the char is lower case
     # If it is then just add it to the output string if it is not then just 
     # add a space then the letter
