@@ -1,4 +1,9 @@
 def expression_matter(a, b, c):
+    """
+    What I learned:
+
+    I learned that I could use the max value to get the max of all of the expression
+    """
     # Compute all of the different variations
     # Then find the largest value
     
